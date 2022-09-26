@@ -2,8 +2,12 @@ import mongoose from "mongoose";
 
 const ConversationSchema = new mongoose.Schema(
   {
-    members: { type: Array },
-    message: { type: String },
+    members: {
+      type: Array,
+    },
+    message: {
+      type: String,
+    },
   },
   {
     timestamps: true,
